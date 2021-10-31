@@ -1,0 +1,16 @@
+[requires]                     # The Conan packages which are used in the application
+boost/1.77.0                   # Versions override versions upstream in the dependency graph
+#poco/1.9.4
+
+[build_requires]               # The Conan packages which are used to build the application
+#7zip/19.00
+
+[generators]                   # Generators create build system files that capture the dependency information,
+cmake                          # as well as configuration information from Conan settings and options
+
+[options]                      # Options here override options upstream in the dependency graph
+#boost:shared=True              # Options can be specified on a per-package basis for dependencies
+#poco:shared=True
+
+[imports]                      # Copies files from the cache to the current working directory
+#bin, *.dll -> ./bin            # Copies all .dll files from the packages' bin/ folder to the local bin/ folder
