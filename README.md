@@ -1,4 +1,4 @@
-# conan-cxx-package-manager-sample
+# conan-cpp-package-manager-sample
 
 Links:
 - https://conan.io/center
