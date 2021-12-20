@@ -20,6 +20,6 @@ $ conan remote add conancenter https://center.conan.io
 
 Get dependencies and generate build system files
 ```
-$ mkdir cmake-build-debug && cd cmake-build-debug
+$ mkdir cmake-build-release && cd cmake-build-release
 $ conan install .. -pr my-default -r conancenter -b missing
 ```
