@@ -23,3 +23,8 @@ Get dependencies and generate build system files
 $ mkdir cmake-build-release && cd cmake-build-release
 $ conan install .. -pr my-default -r conancenter -b missing
 ```
+
+## Useful notes
+
+https://docs.conan.io/en/latest/reference/env_vars.html#conan-user-home  
+https://docs.conan.io/en/latest/mastering/custom_cache.html#custom-cache  
